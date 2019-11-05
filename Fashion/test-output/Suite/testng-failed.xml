@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCase.TC_005ReOrder">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="SignOut"/>
+          <include name="AddProductWishList"/>
+        </methods>
+      </class> <!-- TestCase.TC_005ReOrder -->
+      <class name="TestCase.TC_002SigIn">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="CreatAccount"/>
+          <include name="SignOut"/>
+        </methods>
+      </class> <!-- TestCase.TC_002SigIn -->
+      <class name="TestCase.TC_003AddCart">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="AddProduct"/>
+          <include name="SignOut"/>
+        </methods>
+      </class> <!-- TestCase.TC_003AddCart -->
+      <class name="TestCase.TC_006SignInDataDriven">
+        <methods>
+          <include name="SignOut"/>
+          <include name="BrowserLaunch"/>
+          <include name="SignInAccountDataDriven"/>
+        </methods>
+      </class> <!-- TestCase.TC_006SignInDataDriven -->
+      <class name="TestCase.TC_001CreateAccount">
+        <methods>
+          <include name="CreatAccount"/>
+          <include name="SignOut"/>
+          <include name="BrowserLaunch"/>
+        </methods>
+      </class> <!-- TestCase.TC_001CreateAccount -->
+      <class name="TestCase.TC_004WishList">
+        <methods>
+          <include name="SignOut"/>
+          <include name="BrowserLaunch"/>
+          <include name="AddProductWishList"/>
+        </methods>
+      </class> <!-- TestCase.TC_004WishList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

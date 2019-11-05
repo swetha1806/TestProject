@@ -20,7 +20,7 @@ public class TC_001_verifyLogin {
 	@BeforeClass
 	public void setup()
 	{
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\sweth\\eclipse-workspace\\ZeroBanking\\src\\test\\resources\\browser_driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\sweth\\git\\TestProject\\ZeroBanking\\src\\test\\resources\\browser_driver\\chromedriver.exe");
 	driver=new ChromeDriver();
 	   driver.get("http://zero.webappsecurity.com/index.html");	
 	   driver.manage().window().maximize();
